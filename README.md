@@ -15,4 +15,16 @@ The messages should be encrypted using RSA.
 The server should also respond to the client with the ACK message after each successful operation and NOACK for each failure[if the linux command throws up an error].
 Your assignment pipeline should have 1 server with 20 clients, each sending messages to the server that are randomly selected from a message.txt files that should also be included along with the assignment.
 The pipeline should have details logs for both the client and the server for each and every operation.
-Instructions:
+
+Requirements:
+python3
+
+How to run this code:
+on a linux terminal
+rum commnand: python3 server.py
+on another linux terminal
+run commnad: python3 client*.py
+(where * is the client no, eg client1.py)
+
+
+
