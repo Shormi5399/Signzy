@@ -1,5 +1,5 @@
-               Creating a CLI internet chat interface
-
+---------------------------------------------------------------------------------------------------------------------------                  Creating a CLI internet chat interface
+---------------------------------------------------------------------------------------------------------------------------  
 Problem Statement:
 
 Implement a websockets based chat server that can be used for exchanging text messages as well as running system commands on the other machine (linux). You need to devise a protocol to identify the type of incoming data and correspondingly treat it like a text message or an instruction to run a command.
@@ -18,13 +18,14 @@ The pipeline should have details logs for both the client and the server for eac
 
 Requirements:
 python3
-
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 How to run this code:
+pip install rsa 
 on a linux terminal
 rum commnand: python3 server.py
 on another linux terminal
 run commnad: python3 client*.py
 (where * is the client no, eg client1.py)
-
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 
