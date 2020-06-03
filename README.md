@@ -1,4 +1,5 @@
----------------------------------------------------------------------------------------------------------------------------                   Creating a CLI internet chat interface
+-----------------------------------------------------------------------------
+                     Creating a CLI internet chat interface
 ---------------------------------------------------------------------------------------------------------------------------
                    
 Problem Statement:
@@ -22,6 +23,7 @@ python3
 `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 How to run this code:
 pip install rsa //to to use RSA encryption and De-cryption 
+pip install pycryptodome
 on a linux terminal:
 
 run commnand: python3 server.py
