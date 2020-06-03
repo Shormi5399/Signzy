@@ -1,6 +1,6 @@
+---------------------------------------------------------------------------------------------------------------------------                   Creating a CLI internet chat interface
 ---------------------------------------------------------------------------------------------------------------------------
-                   Creating a CLI internet chat interface
----------------------------------------------------------------------------------------------------------------------------  
+                   
 Problem Statement:
 
 Implement a websockets based chat server that can be used for exchanging text messages as well as running system commands on the other machine (linux). You need to devise a protocol to identify the type of incoming data and correspondingly treat it like a text message or an instruction to run a command.
